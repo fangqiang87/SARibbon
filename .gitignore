@@ -94,3 +94,7 @@ CMakeSettings.json
 # --------
 *.dll
 *.exe
+
+# conda
+.conda/
+conda/environment.yml

@@ -1,0 +1,34 @@
+name: saribbon
+channels:
+- digitcritical
+- conda-forge
+dependencies:
+- cmake
+- ninja
+- compilers
+- qt=5.15.8
+- qwindowkit
+- kernel-headers_linux-64              # [linux and x86_64]
+- libdrm-cos6-x86_64                   # [linux and x86_64]
+- libselinux-cos6-x86_64               # [linux and x86_64]
+- libsepol-cos6-x86_64                 # [linux and x86_64]
+- libx11-common-cos6-x86_64            # [linux and x86_64]
+- libx11-cos6-x86_64                   # [linux and x86_64]
+- libxau-cos6-x86_64                   # [linux and x86_64]
+- libxcb-cos6-x86_64                   # [linux and x86_64]
+- libxdamage-cos6-x86_64               # [linux and x86_64]
+- libxext-cos6-x86_64                  # [linux and x86_64]
+- libxfixes-cos6-x86_64                # [linux and x86_64]
+- libxi-cos6-x86_64                    # [linux and x86_64]
+- libxi-devel-cos6-x86_64              # [linux and x86_64]
+- libxxf86vm-cos6-x86_64               # [linux and x86_64]
+- mesa-dri-drivers-cos6-x86_64         # [linux and x86_64]
+- mesa-dri1-drivers-cos6-x86_64        # [linux and x86_64]
+- mesa-libegl-cos6-x86_64              # [linux and x86_64]
+- mesa-libegl-devel-cos6-x86_64        # [linux and x86_64]
+- mesa-libgl-cos6-x86_64               # [linux and x86_64]
+- mesa-libgl-devel-cos6-x86_64         # [linux and x86_64]
+- pixman-cos6-x86_64                   # [linux and x86_64]
+- sysroot_linux-64                     # [linux and x86_64]
+- xorg-x11-server-common-cos6-x86_64   # [linux and x86_64]
+- xorg-x11-server-xvfb-cos6-x86_64     # [linux and x86_64]
